@@ -25,7 +25,7 @@ def get_token():
     '''Return your personal access token'''
 
     # TODO: Enter your token here
-
+    token = 'DEV-45898507380322efd35993eda86b2057119efea1'
 
     return token
 
