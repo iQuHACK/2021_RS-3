@@ -3,6 +3,8 @@
 Franck N. Belemkoabga, Ritik Patnaik, Shayda Moezzi, Sebastian Monsalvo, Sophie Zhang
 
 # Abstract
+We are experiencing the first worldwide pandemic the world has seen since the early 1900’s. Due to how advanced science is today, companies were able to produce vaccines meant to combat this pandemic in just 10 months, but this raises another issue–vaccine distribution. This is an optimization problem, which is speculated to be exponentially faster to solve through the use of quantum annealing technology, compared to running it on a classical computer. We were able to develop a Quadratic Unconstrained Binary Optimization (QUBO) which promises to find the most optimal route between a given set of cities so that vaccines can be distributed the fastest possible to the people that need it the most.
+
 
 # Motivation and Goals
 One of the biggest supply chain optimization problems of our generation is vaccine distribution, which is now more prevalent than ever before. Since the death toll due to the COVID-19 virus is increasing rapidly, it is imperative to distribute vaccines optimally and in an orderly fashion. Given a list of cities and the distances between each pair of cities, the goal is to find the shortest possible route that visits each city exactly once and returns to the distribution center.  The Travelling Salesman Problem (TSP) is a common optimization problem that can help find the shortest possible route. In addition, there are many other constraints to take into account such as how many vaccines can be shipped at a time, what temperature do the vaccines have to be stored at, and the expiration time of the vaccine.
