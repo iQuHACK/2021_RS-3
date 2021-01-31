@@ -1,5 +1,7 @@
 # Covid-19 Vaccine Distribution Optimization
-Check out some info in the [event's repository](https://github.com/iQuHACK/2021) to get started.
+
+Franck N. Belemkoabga, Ritik Patnaik, Shayda Moezzi, Sebastian Monsalvo, Sophie Zhang
+
 
 Having a README in your team's repository facilitates judging. A good README contains:
 * Vaccine Distribution Optimization,
