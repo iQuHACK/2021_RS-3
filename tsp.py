@@ -32,17 +32,18 @@ def get_token():
 def get_qubo(G, lagrange, n):
     """Returns a dictionary representing a QUBO"""
 
+    #Number of nodes
     N = n
 
     # Empty dict - QUBO
     Q = defaultdict(float)
 
-    # Constraint for visiting each node just once
-    for node in G: #iterate through each node
+    # Constraint for visiting each node just once and using an edge once
+    for edge in G: #iterate through each edge
         for stop_1 in range(n): #iterate through each possible departing stop
-            Q[((node, stop_1), (node, stop_1))] -= lagrange #algebraic FOIL
+            Q[((edge, stop_1), (edge, stop_1))] -= lagrange #algebraic FOIL
             for stop_2 in range(stop_1+1, n): #iterate through each possible arrival stop
-                Q[((node, stop_1), (node, stop_2))] += 2.0*lagrange #algebraic FOIL
+                Q[((edge, stop_1), (edge, stop_2))] += 2.0*lagrange #algebraic FOIL
 
     # Constraint for visiting once city at a stop
     for stop in range(n): #iterate through each stop
