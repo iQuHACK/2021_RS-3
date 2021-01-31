@@ -2,7 +2,7 @@
 Check out some info in the [event's repository](https://github.com/iQuHACK/2021) to get started.
 
 Having a README in your team's repository facilitates judging. A good README contains:
-* a clear title for your project,
+* Vaccine Distribution Optimization,
 * a short abstract,
 * the motivation/goals for your project,
 * a description of the work you did, and
