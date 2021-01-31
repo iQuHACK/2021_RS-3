@@ -1,4 +1,4 @@
-# Welcome to iQuHACK 2021!
+# Covid-19 Vaccine Distribution Optimization
 Check out some info in the [event's repository](https://github.com/iQuHACK/2021) to get started.
 
 Having a README in your team's repository facilitates judging. A good README contains:
