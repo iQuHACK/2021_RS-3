@@ -205,6 +205,18 @@ if __name__ == "__main__":
         (1, 3, 4),
         (2, 3, 8)
     ])
+    //Another example
+      G.add_weighted_edges_from([
+        (0, 1, 7),
+        (0, 2, 12),
+        (0, 3, 345),
+        (1, 2, 94),
+        (1, 5, 56),
+        (2, 6, 1),
+        (2, 2, 78),
+        (3, 6, 56),
+        (3, 6, 25)
+    ])
     """
 
     Q, offset = get_qubo(G, lagrange, n)
@@ -216,6 +228,7 @@ if __name__ == "__main__":
 
     response = sampler.sample(bqm)
 
+    
     stop = timeit.default_timer()
 
     print('Time: ', stop - start) #print runtime/response time of solver
