@@ -2,6 +2,9 @@
 
 Franck N. Belemkoabga, Ritik Patnaik, Shayda Moezzi, Sebastian Monsalvo, Sophie Zhang
 
+#Abstract
+
+# Motivation and Goals
 
 Having a README in your team's repository facilitates judging. A good README contains:
 * Vaccine Distribution Optimization,
