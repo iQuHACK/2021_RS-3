@@ -18,4 +18,4 @@ So far our model works for finding the fastest route between a given set of citi
 Method 1: choose highest risk factor nodes/cities, then optimize route using TSP\
 Method 2: Knapsack (weight = max distance, value = number of vaccines needed/risk factor), then TSP\
 Method 3: determine clusters of cities, choose which cluster based on average risk factor, then use TSP to travel within cluster\
-Method 4: purely TSP\
+Method 4: purely TSP
