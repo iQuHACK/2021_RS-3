@@ -35,3 +35,17 @@ Method 1: Choose highest risk factor nodes/cities, then optimize route using TSP
 Method 2: Knapsack (weight = max distance, value = number of vaccines needed/risk factor), then TSP
 Method 3: determine clusters of cities, choose which cluster based on average risk factor, then use TSP to travel within cluster
 Method 4: purely TSP
+
+# References
+
+https://medium.com/@michal.stechly/solving-the-traveling-salesman-problem-using-quantum-computer-bb00438de223
+
+https://www.scientificamerican.com/article/the-covid-cold-chain-how-a-vaccine-will-get-to-you/
+
+https://www.cdc.gov/vaccines/covid-19/info-by-product/pfizer/index.html
+
+https://www.rocketcitynow.com/article/news/health/coronavirus/vaccine/verify-how-long-does-it-take-for-the-covid-19-vaccines-expire/283-01e27612-0b23-4f3f-9e2f-f94a3ba6be19
+
+https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization
+
+https://tdem.maps.arcgis.com/apps/webappviewer/index.html?id=3700a84845c5470cb0dc3ddace5c376b
