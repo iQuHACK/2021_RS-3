@@ -25,6 +25,8 @@ Mathematically, the QUBO looks as follows:
 
 ![formula](./qubo_formula.png)
 
+We implemented the QUBO for a D-Wave hybrid solver in tsp.py and compared it to a brute-force classical method in brute_force_tsp.py, where it is O(n!). As a benchmark the runtime for the quantum implementation is a second for 10 nodes, while it takes 6 seconds on the brute force method.
+
 ## Future Work
 So far our model works for finding the fastest route between a given set of cities with the given constraints above. Currently, someone has to manually input the coordinates and cost of passing through the edges in order to get an output. Our hope is that in the future the edge cost corresponding to the edges of a given city can be set to be a variable dependent on the risk factor of that city. This way, one would only have to input the risk factor of all the cities instead of having to calculate and input the edge cost of all the edges–which grow exponentially with respect to the number of cities in the network.
 
