@@ -15,7 +15,7 @@ The problem space, in this case large scale vaccine distribution to hospitals/nu
 
 As previously mentioned, the QUBO has two components: the objective and constraint function. Our objective is to optimize the route that connects all the cities the hypothetical truck or plane is taking. On the other hand, the constraints are that the distributor can visit a city once, taking edges to get to the city and to leave the city no more than once. In addition, to deter from any multi-cycle solutions, stop constraints are defined so that the distributor can visit only one city at a particular stop. Thus, if the distributor has to visit 5 cities, then it needs to take 5 unique stops to reach each city. This is based on Andrew Lucas’s binary permutation matrix idea shown below, where the route described is city 4 → city 1 → city 3 → city 5 → city 2:
 
-![table](./lucas_matrix.png)
+![table](./lucas_martix.png)
 
 It is important to note that our model calculates the route based on the edge cost of all the edges (connections) possible between cities. The edge cost of the edges connecting to or from a city is dependent on the risk factor, which is simply a predetermined calculated value for each city which determines how much a given city needs vaccines.
 
