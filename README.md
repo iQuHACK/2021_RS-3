@@ -49,3 +49,5 @@ https://www.rocketcitynow.com/article/news/health/coronavirus/vaccine/verify-how
 https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization
 
 https://tdem.maps.arcgis.com/apps/webappviewer/index.html?id=3700a84845c5470cb0dc3ddace5c376b
+
+Andrew Lucas Paper: https://arxiv.org/pdf/1302.5843.pdf
