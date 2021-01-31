@@ -12,3 +12,10 @@ The computational intensity of the TSP grows exponentially as more cities are ad
 # Description
 
 # Future Work
+So far our model works for finding the fastest route between a given set of cities with the given constraints above. Currently, someone has to manually input the coordinates and cost of passing through the edges in order to get an output. Our hope is that in the future the edge cost corresponding to the edges of a given city can be set to be a variable dependent on the risk factor of that city. This way, one would only have to input the risk factor of all the cities instead of having to calculate and input the edge cost of all the edges–which grow exponentially with respect to the number of cities in the network.
+
+
+Method 1: choose highest risk factor nodes/cities, then optimize route using TSP
+Method 2: Knapsack (weight = max distance, value = number of vaccines needed/risk factor), then TSP
+Method 3: determine clusters of cities, choose which cluster based on average risk factor, then use TSP to travel within cluster
+Method 4: purely TSP
