@@ -1,4 +1,4 @@
-# Covid-19 Vaccine Distribution Optimization
+# TSP for COVID-19 Vaccine Distribution Optimization
 
 Franck N. Belemkoabga, Ritik Patnaik, Shayda Moezzi, Sebastian Monsalvo, Sophie Zhang (RS^3)
 
